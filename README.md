@@ -1,6 +1,6 @@
 Pathfinder
 =====
-#####Find Path with the lowest sum from node x to node y.
+Find Path with the lowest sum from node x to node y.
 
 1. Demands and short explanation of the project
 
