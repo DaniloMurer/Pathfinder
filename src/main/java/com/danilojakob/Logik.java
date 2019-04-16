@@ -35,9 +35,7 @@ public class Logik {
                     sum++;
                     tempJ = 0;
                     continue;
-                }
-
-                else if (j == h - 1) {
+                } else if (j == h - 1) {
                     tempJ = j;
                     sum++;
                     break;
@@ -46,12 +44,10 @@ public class Logik {
                 if (numbers[i + 1][j] < numbers[i][j + 1]) {
                     sum++;
                     tempJ = j;
-                }
-                else if (numbers[i + 1][j] == numbers[i][j + 1]) {
+                } else if (numbers[i + 1][j] == numbers[i][j + 1]) {
                     sum++;
                     tempJ = j;
-                }
-                else {
+                } else {
                     sum++;
                 }
             }
@@ -87,9 +83,7 @@ public class Logik {
                     sum++;
                     tempJ = 0;
                     continue;
-                }
-
-                else if (j == h - 1) {
+                } else if (j == h - 1) {
                     System.out.println(labels[i + 1][j].getText());
                     rectangles[i + 1][j].setFill(Color.GREEN);
                     tempJ = j;
@@ -101,15 +95,14 @@ public class Logik {
                     System.out.println(labels[i + 1][j].getText());
                     rectangles[i + 1][j].setFill(Color.GREEN);
                     sum++;
-                    tempJ = j;
-                }
-                else if (Integer.parseInt(labels[i + 1][j].getText()) == Integer.parseInt(labels[i][j + 1].getText())) {
+                    tempJ = j - 1;
+                } else if (Integer.parseInt(labels[i + 1][j].getText()) == Integer.parseInt(labels[i][j + 1].getText())) {
                     System.out.println(labels[i + 1][j].getText());
                     sum++;
                     rectangles[i + 1][j].setFill(Color.GREEN);
-                    tempJ = j;
-                }
-                else {
+                    tempJ = j - 1;
+                    break;
+                } else {
                     System.out.println(labels[i][j + 1].getText());
                     sum++;
                     rectangles[i][j + 1].setFill(Color.GREEN);

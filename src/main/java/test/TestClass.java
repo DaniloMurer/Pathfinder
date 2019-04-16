@@ -2,7 +2,9 @@ package test;
 
 import com.danilojakob.Logik;
 import com.danilojakob.Main;
+
 import static org.junit.Assert.*;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,7 +15,6 @@ public class TestClass {
 
     @Before
     public void createField() {
-
         Object[] arrays = Main.testCreateField(3, 3);
         numbers = (int[][]) arrays[1];
         System.out.println("Field created");
