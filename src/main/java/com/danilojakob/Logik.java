@@ -23,12 +23,11 @@ public class Logik {
             for (j = tempJ; j < h; j++) {
 
                 if (i == 0 && j == 0) {
-                    System.out.println(numbers[0][0]);
                     sum++;
                     tempJ = 0;
                 }
                 if (i == v - 1 && j == h - 1) {
-                    sum++;
+
                     break outerloop;
                 }
 

@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4f01f8-40aa-4902-95ff-44cf28811c7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OPJ_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OPJ_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OPJ_1/com/danilojakob/Logik.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OPJ_1/com/danilojakob/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OPJ_1/com/danilojakob/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/danilojakob/Logik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/danilojakob/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/danilojakob/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danilojakob/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TestClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="718">
               <caret line="92" column="27" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,23 +38,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-548">
-              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+            <state relative-caret-position="552">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#testSelectPath#0;class#Logik#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/NumberOfMoves.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#selectPath#0;class#Logik#0" />
               </folding>
             </state>
           </provider>
@@ -77,23 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/application.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="207">
-                <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/TestClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -123,9 +91,10 @@
         <option value="$PROJECT_DIR$/src/main/com/danilojakob/Main.java" />
         <option value="$PROJECT_DIR$/src/main/com/danilojakob/Logik.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/NumberOfMoves.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/TestClass.java" />
       </list>
     </option>
   </component>
@@ -164,58 +133,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Pathfinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pathfinder" type="462c0819:PsiDirectoryNode" />
+              <item name="OPJ_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OPJ_1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Pathfinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pathfinder" type="462c0819:PsiDirectoryNode" />
+              <item name="OPJ_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OPJ_1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Pathfinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pathfinder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pathfinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pathfinder" type="462c0819:PsiDirectoryNode" />
+              <item name="OPJ_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OPJ_1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Pathfinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pathfinder" type="462c0819:PsiDirectoryNode" />
+              <item name="OPJ_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OPJ_1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pathfinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pathfinder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="danilojakob" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pathfinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +173,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555356513272" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555396250291" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -235,6 +183,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JADA\IdeaProjects\OPJ_1\src\main\java" />
       <recent name="F:\Dokumente\IdeaProjects\Pathfinder\src\main\java" />
     </key>
   </component>
@@ -250,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumberOfMoves.checkAmountOfMoves (1)">
+  <component name="RunManager" selected="JUnit.TestClass.selectPaht">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.danilojakob.Main" />
       <module name="OPJ_1" />
@@ -293,10 +242,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClass.selectPaht" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OPJ_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestClass" />
+      <option name="METHOD_NAME" value="selectPaht" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NumberOfMoves.checkAmountOfMoves (1)" />
+        <item itemvalue="JUnit.TestClass.selectPaht" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.NumberOfMoves.checkAmountOfMoves (1)" />
         <item itemvalue="JUnit.NumberOfMoves.checkAmountOfMoves" />
       </list>
     </recent_temporary>
@@ -316,25 +282,11 @@
       <workItem from="1555309317256" duration="12243000" />
       <workItem from="1555326947980" duration="3307000" />
       <workItem from="1555352359431" duration="3308000" />
+      <workItem from="1555394773891" duration="1470000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberOfMoves_checkAmountOfMoves_(1) - 2019.04.15 at 21h 16m 45s.xml">
-      <configuration name="NumberOfMoves.checkAmountOfMoves (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfMoves_checkAmountOfMoves_(1) - 2019.04.15 at 21h 20m 20s.xml">
-      <configuration name="NumberOfMoves.checkAmountOfMoves (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfMoves_checkAmountOfMoves_(1) - 2019.04.15 at 21h 20m 43s.xml">
-      <configuration name="NumberOfMoves.checkAmountOfMoves (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfMoves_checkAmountOfMoves_(1) - 2019.04.15 at 21h 23m 02s.xml">
-      <configuration name="NumberOfMoves.checkAmountOfMoves (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfMoves_checkAmountOfMoves_(1) - 2019.04.15 at 21h 26m 46s.xml">
-      <configuration name="NumberOfMoves.checkAmountOfMoves (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumberOfMoves_checkAmountOfMoves_(1) - 2019.04.15 at 21h 26m 55s.xml">
       <configuration name="NumberOfMoves.checkAmountOfMoves (1)" configurationId="JUnit" />
     </history-entry>
@@ -350,15 +302,30 @@
     <history-entry file="NumberOfMoves_checkAmountOfMoves_(1) - 2019.04.15 at 21h 27m 34s.xml">
       <configuration name="NumberOfMoves.checkAmountOfMoves (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestClass_selectPaht - 2019.04.16 at 08h 13m 15s.xml">
+      <configuration name="TestClass.selectPaht" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_selectPaht - 2019.04.16 at 08h 14m 31s.xml">
+      <configuration name="TestClass.selectPaht" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_selectPaht - 2019.04.16 at 08h 16m 08s.xml">
+      <configuration name="TestClass.selectPaht" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_selectPaht - 2019.04.16 at 08h 16m 26s.xml">
+      <configuration name="TestClass.selectPaht" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass_selectPaht - 2019.04.16 at 08h 27m 49s.xml">
+      <configuration name="TestClass.selectPaht" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27075000" />
+    <option name="totallyTimeSpent" value="28582000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,7 +334,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32448378" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45624384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,7 +344,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32998884" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32940018" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -404,10 +371,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/TestClass.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/javafx-src.zip!/javafx/scene/control/Label.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/NumberOfMoves.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="-69" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="414">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -418,16 +399,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/javafx-src.zip!/javafx/scene/control/Label.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="552">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#selectPath#0;class#Logik#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="718">
           <caret line="92" column="27" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -435,34 +420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/NumberOfMoves.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testSelectPath#0;class#Logik#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="51">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
     </entry>
