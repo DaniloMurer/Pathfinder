@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OPJ_1:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8c4f01f8-40aa-4902-95ff-44cf28811c7d" name="Default Changelist" comment="Implemented a test class with parameterized tests.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/TestParameterized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OPJ_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TestClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,10 +32,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" selection-start-line="14" selection-end-line="15" />
+            <state relative-caret-position="206">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#createField#0;class#Main#0" />
+                <element signature="method#testCreateField#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-300">
+              <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testSelectPath#0;class#Logik#0" />
               </folding>
             </state>
           </provider>
@@ -41,19 +61,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="598">
               <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#testSelectPath#0;class#Logik#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="46">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -103,9 +110,9 @@
         <option value="$PROJECT_DIR$/src/main/java/test/NumberOfMoves.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/test/TestClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/TestParameterized.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java" />
       </list>
     </option>
   </component>
@@ -133,10 +140,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="x" value="-17" />
+    <option name="y" value="34" />
+    <option name="width" value="2560" />
+    <option name="height" value="1324" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,44 +151,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="OPJ_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OPJ_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Pathfinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pathfinder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OPJ_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OPJ_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OPJ_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OPJ_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OPJ_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OPJ_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OPJ_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OPJ_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Pathfinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pathfinder" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -193,12 +179,12 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555420769260" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557248525605" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="SonarLintApp" />
   </component>
@@ -220,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestParameterized">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.danilojakob.Main" />
       <module name="OPJ_1" />
@@ -247,18 +233,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfMoves.checkAmountOfMoves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OPJ_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="main.java.test.NumberOfMoves" />
-      <option name="METHOD_NAME" value="checkAmountOfMoves" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="test.TestClass" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -296,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestParameterized" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestClass" />
+        <item itemvalue="JUnit.TestParameterized" />
         <item itemvalue="JUnit.TestClass.selectPaht" />
         <item itemvalue="JUnit.NumberOfMoves.checkAmountOfMoves (1)" />
-        <item itemvalue="JUnit.NumberOfMoves.checkAmountOfMoves" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +306,13 @@
       <workItem from="1555352359431" duration="3308000" />
       <workItem from="1555394773891" duration="5924000" />
       <workItem from="1555418716094" duration="2047000" />
+      <workItem from="1555439556521" duration="963000" />
+      <workItem from="1555677590067" duration="636000" />
+      <workItem from="1555923689011" duration="3021000" />
+      <workItem from="1556008855061" duration="226000" />
+      <workItem from="1556120501773" duration="872000" />
+      <workItem from="1556361221367" duration="244000" />
+      <workItem from="1557244515293" duration="2923000" />
     </task>
     <task id="LOCAL-00001" summary="Modified TestClass">
       <created>1555396275004</created>
@@ -333,21 +325,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestParameterized - 2019.04.16 at 15h 12m 02s.xml">
-      <configuration name="TestParameterized" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestParameterized - 2019.04.16 at 15h 12m 22s.xml">
-      <configuration name="TestParameterized" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestParameterized - 2019.04.16 at 15h 12m 31s.xml">
-      <configuration name="TestParameterized" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestParameterized - 2019.04.16 at 15h 13m 49s.xml">
-      <configuration name="TestParameterized" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestParameterized - 2019.04.16 at 15h 14m 09s.xml">
-      <configuration name="TestParameterized" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestParameterized - 2019.04.16 at 15h 14m 15s.xml">
       <configuration name="TestParameterized" configurationId="JUnit" />
     </history-entry>
@@ -363,26 +340,40 @@
     <history-entry file="TestParameterized - 2019.04.16 at 15h 17m 45s.xml">
       <configuration name="TestParameterized" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestParameterized - 2019.04.16 at 20h 33m 07s.xml">
+      <configuration name="TestParameterized" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestParameterized - 2019.04.19 at 14h 40m 20s.xml">
+      <configuration name="TestParameterized" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestParameterized - 2019.05.07 at 18h 00m 00s.xml">
+      <configuration name="TestParameterized" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.05.07 at 18h 00m 18s.xml">
+      <configuration name="TestClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.05.07 at 18h 00m 31s.xml">
+      <configuration name="TestClass" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35083000" />
+    <option name="totallyTimeSpent" value="43968000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27985075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="SonarLint" visible="true" weight="0.32940018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32448378" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45624384" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1638796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45596433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -391,7 +382,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32940018" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32887402" />
+      <window_info active="true" anchor="bottom" id="SonarLint" order="13" visible="true" weight="0.32940018" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -413,16 +405,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Implemented a test class with parameterized tests." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="labels[1]" />
@@ -448,9 +430,7 @@
         <state relative-caret-position="-69" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -461,20 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/TestParameterized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="598">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -485,17 +455,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/TestParameterized.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="46">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createField#0;class#Main#0" />
+            <element signature="method#testCreateField#0;class#Main#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/danilojakob/Logik.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+        <state relative-caret-position="-300">
+          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testSelectPath#0;class#Logik#0" />
@@ -509,10 +491,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>OPJ_1:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -560,7 +544,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -568,6 +551,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.13-beta-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -55,7 +55,7 @@ public class Logik {
         return sum;
     }
 
-    public static int selectPath(Label[][] labels, Rectangle[][] rectangles, int h, int v) {
+    public int selectPath(Label[][] labels, Rectangle[][] rectangles, int h, int v) {
 
         int sum = 0;
         int tempJ = 0;
@@ -95,12 +95,13 @@ public class Logik {
                     System.out.println(labels[i + 1][j].getText());
                     rectangles[i + 1][j].setFill(Color.GREEN);
                     sum++;
-                    tempJ = j - 1;
+                    tempJ = j;
+                    break;
                 } else if (Integer.parseInt(labels[i + 1][j].getText()) == Integer.parseInt(labels[i][j + 1].getText())) {
                     System.out.println(labels[i + 1][j].getText());
                     sum++;
                     rectangles[i + 1][j].setFill(Color.GREEN);
-                    tempJ = j - 1;
+                    tempJ = j;
                     break;
                 } else {
                     System.out.println(labels[i][j + 1].getText());

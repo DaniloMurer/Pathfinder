@@ -24,19 +24,19 @@ public class Main extends Application {
         root.setVgap(10);
         root.setHgap(10);
 
-        System.out.println("Höhe des Grids angeben: ");
+        /*System.out.println("Höhe des Grids angeben: ");
         int height = Integer.parseInt(scanner.nextLine());
         System.out.println("Länge des Grids angeben: ");
-        int length = Integer.parseInt(scanner.nextLine());
+        int length = Integer.parseInt(scanner.nextLine());*/
 
         Rectangle[][] rectangles;
         Label[][] labels;
 
-        Object[] arrays = createField(height, length, root);
+        Object[] arrays = createField(3, 3, root);
         rectangles = (Rectangle[][]) arrays[0];
         labels = (Label[][]) arrays[1];
 
-        Logik.selectPath(labels, rectangles, height, length);
+        logik.selectPath(labels, rectangles, 3, 3);
         stage.setScene(scene);
         stage.show();
     }
