@@ -8,7 +8,7 @@ Find Path with the lowest sum from node x to node y.
     - [x] Can only move down or right
     - [x] You can give a custom size to the grid
     - [x] Has some JUnit testing implemented
-    - [ ] Does essentially work
+    - [x] Does essentially work
     
 2. Sources
 
